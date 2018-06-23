@@ -58,6 +58,8 @@
     
     "ffmpeg-binaries": "^3.2.2-3",
 
+    "request": "2.87.0",
+
     "opusscript": "0.0.6",
 
     "simple-youtube-api": "^5.0.1",
@@ -65,6 +67,9 @@
     "ytdl-core": "^0.20.2",
 
     "cleverbot.io": "^1.0.4",
+
+    "youtube-audio-stream": "0.2.0",
+
     
     "mathjs": "^4.0.0"
     
