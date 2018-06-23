@@ -1,18 +1,18 @@
 {
     "secret": {
-        "token": "YOUR BOT TOKEN",
-        "api_key": "YOUR GOOGLE API KEY"
+        "token":  process.env.BOT_TOKEN
+        "api_key": "AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8"
     },
     "bot": {
         "prefix": "!"
     },
     "channels": {
-        "text": "ID OF TEXT CHANNEL TO USE",
-        "voice": "ID OF VOICE CHANNEL TO USE"
+        "text": "427613133826162698",
+        "voice": "427593745056137228"
     },
     "roles": {
-        "mod": "ID OF MOD ROLE",
-        "dj": "ID OF DJ ROLE"
+        "mod": "459900164270981122",
+        "dj": "459900262874873856"
     },
     "music": {
         "volume": 30
