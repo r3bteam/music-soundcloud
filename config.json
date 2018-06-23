@@ -1,6 +1,6 @@
 {
     "secret": {
-        "token":  process.env.BOT_TOKEN
+        "token": "process.env.BOT_TOKEN"
         "api_key": "AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8"
     },
     "bot": {
