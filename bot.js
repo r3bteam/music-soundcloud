@@ -318,16 +318,7 @@ bot.on("message", function(message) {
         		console.log("Failed to add " + url + ", unsupported link");
         	}
 		}
-
-		// the help command, list all of the commands and what they do
-		else if (content === "~help") {
-			console.log("Providing help");
-			bot.reply(message, "\n" + helpStr);
-		}
-	}
-	else if (tchannel.name != "bots" && content.charAt(0) === '~') {
-		bot.reply(message, "I'm not doing shit until you talk to me in #bots");
-	}
+    }
 });
 
 // every hour re-join the voice channel
