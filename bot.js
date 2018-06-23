@@ -270,3 +270,4 @@ function play(message) {
         });
     });
 }
+client.login(process.env.BOT_TOKEN);
