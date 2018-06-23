@@ -4,17 +4,17 @@
         "api_key": "AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8"
     },
     "bot": {
-        "prefix": "!"
+        "prefix": "+"
     },
     "channels": {
-        "text": "427613133826162698",
-        "voice": "427593745056137228"
+        "text": "378292626601934848",
+        "voice": "432543058282938389"
     },
     "roles": {
-        "mod": "459900164270981122",
-        "dj": "459900262874873856"
+        "الإدارة": "411166382307147776",
+        "Try Administrator": "377472021694775306"
     },
     "music": {
-        "volume": 30
+        "volume": 70
     }
 }
