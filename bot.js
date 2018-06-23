@@ -84,7 +84,7 @@ client.on('message', (message) => {
             }, 1000);
             break;
 
-        case "add":
+        case "play":
             if (message.channel.id !== config.channels.text) return;
             if (args.length === 0) return;
             voiceChannel = message.member.voiceChannel;
@@ -217,7 +217,7 @@ function play(message) {
                 }
                 break;
 
-            case "play":
+            case "resume":
                 if (m.channel.id !== config.channels.text) return;
                 if (!hasPerms()) return m.channel.send(":no_entry_sign: You do not have permission to use this command.");
                 if (!playing) {
