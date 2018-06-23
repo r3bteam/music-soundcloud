@@ -1,0 +1,20 @@
+{
+    "secret": {
+        "token": "YOUR BOT TOKEN",
+        "api_key": "YOUR GOOGLE API KEY"
+    },
+    "bot": {
+        "prefix": "!"
+    },
+    "channels": {
+        "text": "ID OF TEXT CHANNEL TO USE",
+        "voice": "ID OF VOICE CHANNEL TO USE"
+    },
+    "roles": {
+        "mod": "ID OF MOD ROLE",
+        "dj": "ID OF DJ ROLE"
+    },
+    "music": {
+        "volume": 30
+    }
+}
