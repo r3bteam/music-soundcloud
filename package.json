@@ -56,7 +56,7 @@
 
     "discord.js": "^11.3.0",
     
-    "ffmpeg-binaries": "^3.2.2-3",
+    "ffmpeg-binaries": "4.0.0",
 
     "ffmpeg": "0.0.4",
 
