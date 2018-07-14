@@ -58,6 +58,8 @@
     
     "ffmpeg-binaries": "^3.2.2-3",
 
+    "ffmpeg": "0.0.4",
+
     "opusscript": "0.0.6",
 
     "simple-youtube-api": "^5.0.1",
