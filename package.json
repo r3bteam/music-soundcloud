@@ -1,103 +1,54 @@
-
 {
-
-  "name": "abuse",
-
-  "version": "1.0.0",
-
-  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
-
-  "main": "bot.js",
-
-  "engines": {
-
-    "node": "8.x",
-
-    "npm": "*"
-
-  },
-
-  "scripts": {
-
-    "test": "echo \"Error: no test specified\" && exit 1",
-
-    "start": "node bot.js"
-
-  },
-
-  "repository": {
-
-    "type": "git",
-
-    "url": "git+https://github.com/BradGamez/Abuse-Bot/.git"  },
-
-  "keywords": [
-
-    "heroku",
-
-    "discord.js"
-
-  ],
-
-  "author": "synicalsyntax",
-
-  "license": "MIT",
-
-  "bugs": {
-
-    "url": "https://github.com/BradGamez/Abuse-Bot/issues"
-
-  },
-
-  "homepage": "https://github.com/BradGamez/Abuse-Bot#readme",
-
-  
-  "dependencies": {
-
-    "discord.js": "^11.3.0",
-    
-    "ffmpeg-binaries": "4.0.0",
-
-    "ffmpeg": "0.0.4",
-
-    "opusscript": "0.0.6",
-
-    "simple-youtube-api": "^5.0.1",
-
-    "ytdl-core": "^0.20.2",
-
-    "cleverbot.io": "^1.0.4",
-    
-    "chalk": "^2.3.0",
-
-    "node-opus": "^0.2.7",
-
-    "request": "^2.83.0",
-
-    "mathjs": "^4.0.0"
-    
-    
-    
-    
-  },
-  "devDependencies": {
-
-    "eslint": "^4.0.0",
-
-    "eslint-config-aqua": "^1.0.0"
-
-  },
-
-  "eslintConfig": {
-
-    "extends": "aqua",
-
-    "rules": {
-
-      "no-console": 0
-
+    "name": "Test",
+    "description": "Test",
+    "version": "2.0.0",
+    "main": "bot.js",
+    "scripts": {
+      "start": "node bot.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/then/fs.git"
+    },
+    "keywords": [
+      "promise",
+      "then",
+      "fs",
+      "core"
+    ],
+    "author": "Nathan Zadoks",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/then/fs/issues"
+    },
+    "devDependencies": {
+      "bash-color": "0.0.3"
+    },
+    "dependencies": {
+      "canvas": "1.6.10",
+      "hh-mm-ss": "1.2.0",
+      "figlet": "1.2.0",
+      "dateformat": "3.0.3",
+      "google-translate-api": "2.3.0",
+      "discord.js": "11.1.0",
+      "ffmpeg-binaries": "3.2.2-3",
+      "fs": "0.0.1-security",
+      "get-youtube-id": "^1.0.0",
+      "moment": "2.22.1",
+      "moment-duration-format": "^2.2.2",
+      "ms": "2.1.1",
+      "node-opus": "0.2.7",
+      "pretty-ms": "3.1.0",
+      "request": "^2.81.0",
+      "short-number": "1.0.6",
+      "simple-youtube-api": "5.0.1",
+      "youtube-info": "^1.2.0",
+      "jimp": "0.2.28",
+      "quick.db": "6.2.1",
+      "sqlite": "2.9.2",
+      "child_process": "1.0.2",
+      "random-number": "0.0.9",
+      "ytdl-core": "0.20.2"
     }
-
   }
-
-}
+  
